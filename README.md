@@ -1,10 +1,11 @@
 # docker-ros-desktop-vnc
 
 ![Docker Automated build](https://img.shields.io/docker/automated/tiryoh/ros-desktop-vnc)
-[![Publish to Registry](https://github.com/Tiryoh/docker_ros-desktop-vnc/workflows/Publish%20to%20Registry/badge.svg?branch=master)](https://github.com/Tiryoh/docker-ros-desktop-vnc/actions?query=workflow%3A%22Publish+to+Registry%22+branch%3Amaster)
+[![Publish to Registry (Melodic)](https://github.com/Tiryoh/docker-ros-desktop-vnc/actions/workflows/deploy-melodic.yml/badge.svg)](https://github.com/Tiryoh/docker-ros-desktop-vnc/actions/workflows/deploy-melodic.yml)
+[![Publish to Registry (Noetic)](https://github.com/Tiryoh/docker-ros-desktop-vnc/actions/workflows/deploy-noetic.yml/badge.svg)](https://github.com/Tiryoh/docker-ros-desktop-vnc/actions/workflows/deploy-noetic.yml)
 [![](https://img.shields.io/docker/pulls/tiryoh/ros-desktop-vnc.svg)](https://hub.docker.com/r/tiryoh/ros-desktop-vnc)
 
-A Docker image to provide HTML5 VNC interface to access Ubuntu LXDE + ROS, based on [dorowu/ubuntu-desktop-lxde-vnc](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
+A Docker image to provide HTML5 VNC interface to access Ubuntu Desktop + ROS, based on [AtsushiSaito/docker-ubuntu-sweb](https://github.com/AtsushiSaito/docker-ubuntu-sweb)
 
 ROS 2 version: https://github.com/Tiryoh/docker-ros2-desktop-vnc
 
@@ -82,4 +83,5 @@ Unless attributed otherwise, everything in this repository is under the Apache L
 
 ### Acknowledgements
 
-This Docker image is based on [dorowu/ubuntu-desktop-lxde-vnc](https://github.com/fcwu/docker-ubuntu-vnc-desktop), licensed under the [Apache License 2.0](https://github.com/fcwu/docker-ubuntu-vnc-desktop/blob/60f9ae18e71e9fabbfb23f67b212e64ab72c206e/LICENSE).
+* This Dockerfile is based on [AtsushiSaito/docker-ubuntu-sweb](https://github.com/AtsushiSaito/docker-ubuntu-sweb), licensed under the [Apache License 2.0](https://github.com/AtsushiSaito/docker-ubuntu-sweb/blob/5e7ba8571d2f4d1e4fca0c1527d090c20f7f5e90/LICENSE).
+* This Docker image is based on [dorowu/ubuntu-desktop-lxde-vnc](https://github.com/fcwu/docker-ubuntu-vnc-desktop), licensed under the [Apache License 2.0](https://github.com/fcwu/docker-ubuntu-vnc-desktop/blob/60f9ae18e71e9fabbfb23f67b212e64ab72c206e/LICENSE).
